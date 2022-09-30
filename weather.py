@@ -18,7 +18,7 @@ import subprocess
 import os
 owm = OWM('023f8075107f72dd81cf7c25cdbc6e30')
 mgr = owm.weather_manager()
-observation = mgr.weather_at_place('Hanoi,VN')
+observation = mgr.weather_at_place('the place you want,VN')
 w = observation.weather
 
 w.detailed_status         
